@@ -1,0 +1,66 @@
+================================================================================
+HMDB51 EVALUATION REPORT (I3D RGB CHECKPOINT, ORIGINAL ONLY)
+================================================================================
+
+Checkpoint: /path/to/project/work_dirs/i3d_hmdb51_rgb_video_paper/checkpoints/i3d_rgb-9999
+Test list: /path/to/project/work_dirs/i3d_hmdb51_rgb_video/lists/test_rgb.list
+Total Videos Evaluated: 1530
+
+--- OVERALL SUMMARY ---
+Top-1 Accuracy: 69.67% (1066/1530)
+Average Loss: 1.05632
+
+--- PER-CLASS BREAKDOWN ---
+Class Name           | Top-1 Acc | Correct | Total
+------------------------------------------------------------
+brush_hair           |    80.00% |      24 |    30
+cartwheel            |    56.67% |      17 |    30
+catch                |    76.67% |      23 |    30
+chew                 |    76.67% |      23 |    30
+clap                 |    66.67% |      20 |    30
+climb                |    96.67% |      29 |    30
+climb_stairs         |    83.33% |      25 |    30
+dive                 |    70.00% |      21 |    30
+draw_sword           |    50.00% |      15 |    30
+dribble              |    93.33% |      28 |    30
+drink                |    66.67% |      20 |    30
+eat                  |    90.00% |      27 |    30
+fall_floor           |    43.33% |      13 |    30
+fencing              |    76.67% |      23 |    30
+flic_flac            |    86.67% |      26 |    30
+golf                 |   100.00% |      30 |    30
+handstand            |    76.67% |      23 |    30
+hit                  |    73.33% |      22 |    30
+hug                  |    86.67% |      26 |    30
+jump                 |    46.67% |      14 |    30
+kick                 |    60.00% |      18 |    30
+kick_ball            |    60.00% |      18 |    30
+kiss                 |    90.00% |      27 |    30
+laugh                |    66.67% |      20 |    30
+pick                 |    36.67% |      11 |    30
+pour                 |    83.33% |      25 |    30
+pullup               |   100.00% |      30 |    30
+punch                |    50.00% |      15 |    30
+push                 |    90.00% |      27 |    30
+pushup               |   100.00% |      30 |    30
+ride_bike            |   100.00% |      30 |    30
+ride_horse           |    83.33% |      25 |    30
+run                  |    50.00% |      15 |    30
+shake_hands          |    90.00% |      27 |    30
+shoot_ball           |    90.00% |      27 |    30
+shoot_bow            |    93.33% |      28 |    30
+shoot_gun            |    86.67% |      26 |    30
+sit                  |    46.67% |      14 |    30
+situp                |    96.67% |      29 |    30
+smile                |    60.00% |      18 |    30
+smoke                |    73.33% |      22 |    30
+somersault           |    86.67% |      26 |    30
+stand                |    10.00% |       3 |    30
+swing_baseball       |    46.67% |      14 |    30
+sword                |    50.00% |      15 |    30
+sword_exercise       |     6.67% |       2 |    30
+talk                 |    80.00% |      24 |    30
+throw                |    23.33% |       7 |    30
+turn                 |    60.00% |      18 |    30
+walk                 |    60.00% |      18 |    30
+wave                 |    26.67% |       8 |    30

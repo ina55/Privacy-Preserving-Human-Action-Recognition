@@ -1,0 +1,116 @@
+================================================================================
+UCF101 EVALUATION REPORT (I3D RGB CHECKPOINT, ORIGINAL ONLY)
+================================================================================
+
+Checkpoint: /path/to/project/work_dirs/i3d_ucf101_rgb_video_paper_strict/checkpoints/i3d_rgb-9999
+Test list: /path/to/project/datasets/ucf101/ucf101_results/i3d_variant_lists_strict/raw/test_rgb.list
+Total Videos Evaluated: 3783
+
+--- OVERALL SUMMARY ---
+Top-1 Accuracy: 90.54% (3425/3783)
+Average Loss: 0.36704
+
+--- PER-CLASS BREAKDOWN ---
+Class Name           | Top-1 Acc | Correct | Total
+------------------------------------------------------------
+ApplyEyeMakeup       |    93.18% |      41 |    44
+ApplyLipstick        |   100.00% |      32 |    32
+Archery              |    85.37% |      35 |    41
+BabyCrawling         |   100.00% |      35 |    35
+BalanceBeam          |   100.00% |      31 |    31
+BandMarching         |    97.67% |      42 |    43
+BaseballPitch        |    83.72% |      36 |    43
+Basketball           |    97.14% |      34 |    35
+BasketballDunk       |   100.00% |      37 |    37
+BenchPress           |    85.42% |      41 |    48
+Biking               |   100.00% |      38 |    38
+Billiards            |   100.00% |      40 |    40
+BlowDryHair          |    81.58% |      31 |    38
+BlowingCandles       |   100.00% |      33 |    33
+BodyWeightSquats     |    90.00% |      27 |    30
+Bowling              |    93.02% |      40 |    43
+BoxingPunchingBag    |    71.43% |      35 |    49
+BoxingSpeedBag       |   100.00% |      37 |    37
+BreastStroke         |    92.86% |      26 |    28
+BrushingTeeth        |    69.44% |      25 |    36
+CleanAndJerk         |   100.00% |      33 |    33
+CliffDiving          |   100.00% |      39 |    39
+CricketBowling       |    69.44% |      25 |    36
+CricketShot          |    55.10% |      27 |    49
+CuttingInKitchen     |    96.97% |      32 |    33
+Diving               |   100.00% |      45 |    45
+Drumming             |   100.00% |      45 |    45
+Fencing              |    97.06% |      33 |    34
+FieldHockeyPenalty   |    77.50% |      31 |    40
+FloorGymnastics      |    97.22% |      35 |    36
+FrisbeeCatch         |   100.00% |      37 |    37
+FrontCrawl           |    64.86% |      24 |    37
+GolfSwing            |    97.44% |      38 |    39
+Haircut              |    81.82% |      27 |    33
+HammerThrow          |    97.78% |      44 |    45
+Hammering            |    69.70% |      23 |    33
+HandstandPushups     |    96.43% |      27 |    28
+HandstandWalking     |    61.76% |      21 |    34
+HeadMassage          |   100.00% |      41 |    41
+HighJump             |    78.38% |      29 |    37
+HorseRace            |    97.14% |      34 |    35
+HorseRiding          |    97.96% |      48 |    49
+HulaHoop             |   100.00% |      34 |    34
+IceDancing           |   100.00% |      46 |    46
+JavelinThrow         |    74.19% |      23 |    31
+JugglingBalls        |    97.50% |      39 |    40
+JumpRope             |    76.32% |      29 |    38
+JumpingJack          |   100.00% |      37 |    37
+Kayaking             |    97.22% |      35 |    36
+Knitting             |   100.00% |      34 |    34
+LongJump             |    89.74% |      35 |    39
+Lunges               |    70.27% |      26 |    37
+MilitaryParade       |    72.73% |      24 |    33
+Mixing               |    97.78% |      44 |    45
+MoppingFloor         |   100.00% |      34 |    34
+Nunchucks            |    45.71% |      16 |    35
+ParallelBars         |    91.89% |      34 |    37
+PizzaTossing         |    54.55% |      18 |    33
+PlayingCello         |   100.00% |      44 |    44
+PlayingDaf           |   100.00% |      41 |    41
+PlayingDhol          |   100.00% |      49 |    49
+PlayingFlute         |   100.00% |      48 |    48
+PlayingGuitar        |   100.00% |      43 |    43
+PlayingPiano         |   100.00% |      28 |    28
+PlayingSitar         |   100.00% |      44 |    44
+PlayingTabla         |   100.00% |      31 |    31
+PlayingViolin        |    85.71% |      24 |    28
+PoleVault            |    90.00% |      36 |    40
+PommelHorse          |   100.00% |      35 |    35
+PullUps              |    85.71% |      24 |    28
+Punch                |    87.18% |      34 |    39
+PushUps              |   100.00% |      30 |    30
+Rafting              |    67.86% |      19 |    28
+RockClimbingIndoor   |   100.00% |      41 |    41
+RopeClimbing         |    94.12% |      32 |    34
+Rowing               |    88.89% |      32 |    36
+SalsaSpin            |   100.00% |      43 |    43
+ShavingBeard         |    93.02% |      40 |    43
+Shotput              |    78.26% |      36 |    46
+SkateBoarding        |    96.88% |      31 |    32
+Skiing               |    85.00% |      34 |    40
+Skijet               |    96.43% |      27 |    28
+SkyDiving            |    96.77% |      30 |    31
+SoccerJuggling       |    97.44% |      38 |    39
+SoccerPenalty        |   100.00% |      41 |    41
+StillRings           |    68.75% |      22 |    32
+SumoWrestling        |   100.00% |      34 |    34
+Surfing              |   100.00% |      33 |    33
+Swing                |    80.95% |      34 |    42
+TableTennisShot      |   100.00% |      39 |    39
+TaiChi               |    96.43% |      27 |    28
+TennisSwing          |    83.67% |      41 |    49
+ThrowDiscus          |    94.74% |      36 |    38
+TrampolineJumping    |    96.88% |      31 |    32
+Typing               |   100.00% |      43 |    43
+UnevenBars           |    78.57% |      22 |    28
+VolleyballSpiking    |    88.57% |      31 |    35
+WalkingWithDog       |    83.33% |      30 |    36
+WallPushups          |    85.71% |      30 |    35
+WritingOnBoard       |   100.00% |      45 |    45
+YoYo                 |    83.33% |      30 |    36

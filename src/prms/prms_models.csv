@@ -1,0 +1,20 @@
+model,P,D,T,C,params,gflops_per_view,gflops_protocol,prms_reported,class_reported
+FlattenSwin-V2,1,0,1,1,n/r,70.9,70.9 x 4 views,0.050,D
+I3D,1,0,1,1,25M,n/r,n/r,0.050,D
+SlowFast,1,0,1,1,n/r,234,234 x 30 views,0.050,D
+TSN,1,0,1,1,n/r,n/r,n/r,0.050,D
+GAP-BiGRU,1,0,1,1,28.3M,6.9,6.9,0.050,D
+Gated-ConvNet,1,0,1,1,66.6 MB,n/r,n/r,0.050,D
+VideoMAE-V2,1,0,2,1,1011M,2544,38160 (5 x 3 views),0.075,D
+TimeSformer,1,0,2,1,121.4M,197,590 (1 x 3 views),0.075,D
+InternVideo2,1,0,2,2,6B,n/r,n/r,0.100,D
+Video-LLaVA,1,0,1,2,7B,n/r,n/r,0.075,D
+OMI,1,0,1,2,6.7M,40.0,40.0,0.075,D
+PO-GUISE,1,1,1,1,n/r,269,269,0.150,C
+PRECIS-AutoML,2,1,1,2,n/r,n/r,n/r,0.525,C
+HybridCNN-BiLSTM,3,0,1,0,0.565M,n/r,n/r,0.725,B
+PoseConv3D,3,0,1,0,2.0M,15.9,15.9,0.725,B
+LearnableCube,3,0,1,1,n/r,n/r,n/r,0.750,B
+MARS,3,1,1,0,20M,n/r,n/r,0.825,B
+SPAct,3,1,1,1,n/r,n/r,n/r,0.850,B
+DeepConvLSTM,3,2,1,0,0.13M,0.014,0.014,0.925,A

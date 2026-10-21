@@ -1,0 +1,21 @@
+==========================================================================================
+UPB EVALUATION WITH HMDB51-FINETUNED I3D RGB
+==========================================================================================
+
+Checkpoint: /path/to/project/work_dirs/i3d_hmdb51_cartoon_rgb_video_paper/checkpoints/i3d_rgb-3999
+HMDB51 train.csv: /path/to/project/datasets/hmdb51/hmdb51_1/train.csv
+Mapping file: /path/to/project/project/VideoMAEv2/scripts/upb_hmdb51_mapping.json
+
+--- OVERALL ---
+Total UPB videos: 57
+Mapped videos: 57
+Unmapped videos: 0
+Mapped Top-1 Accuracy: 75.44% (43/57)
+Mapped Top-5 Accuracy: 89.47% (51/57)
+
+--- PER-CLASS ---
+Subset           | Action   | UPB Class                          | Mapped HMDB51            | Top-1    | Top-5    | Mapped | Total
+--------------------------------------------------------------------------------------------------------------------------------------------
+DatasetHAR       | A42      | staggering                         | walk, stand, fall_floor  |  75.44% |  89.47% |     57 |    57
+  top1 predictions: walk:43, dribble:5, throw:4, turn:2, kick_ball:1
+

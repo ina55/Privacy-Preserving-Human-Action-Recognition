@@ -1,0 +1,115 @@
+================================================================================
+UCF101 EVALUATION REPORT (LOW56)
+================================================================================
+
+--- OVERALL SUMMARY ---
+Total Videos Evaluated: 3783
+
+Original Videos:
+  Top-1 Accuracy: 90.17% (3411/3783)
+  Top-5 Accuracy: 99.21% (3753/3783)
+
+--- PER-CLASS BREAKDOWN ---
+Class Name           | Top-1      | Top-5      | Total
+------------------------------------------------------------
+ApplyEyeMakeup       |    100.00% |    100.00% |    44
+ApplyLipstick        |     96.88% |    100.00% |    32
+Archery              |     95.12% |     95.12% |    41
+BabyCrawling         |    100.00% |    100.00% |    35
+BalanceBeam          |     35.48% |    100.00% |    31
+BandMarching         |     97.67% |     97.67% |    43
+BaseballPitch        |     88.37% |     95.35% |    43
+Basketball           |    100.00% |    100.00% |    35
+BasketballDunk       |    100.00% |    100.00% |    37
+BenchPress           |    100.00% |    100.00% |    48
+Biking               |    100.00% |    100.00% |    38
+Billiards            |    100.00% |    100.00% |    40
+BlowDryHair          |     97.37% |    100.00% |    38
+BlowingCandles       |    100.00% |    100.00% |    33
+BodyWeightSquats     |     66.67% |    100.00% |    30
+Bowling              |    100.00% |    100.00% |    43
+BoxingPunchingBag    |    100.00% |    100.00% |    49
+BoxingSpeedBag       |     89.19% |    100.00% |    37
+BreastStroke         |     57.14% |    100.00% |    28
+BrushingTeeth        |     88.89% |    100.00% |    36
+CleanAndJerk         |    100.00% |    100.00% |    33
+CliffDiving          |    100.00% |    100.00% |    39
+CricketBowling       |     41.67% |     88.89% |    36
+CricketShot          |     91.84% |    100.00% |    49
+CuttingInKitchen     |    100.00% |    100.00% |    33
+Diving               |    100.00% |    100.00% |    45
+Drumming             |    100.00% |    100.00% |    45
+Fencing              |    100.00% |    100.00% |    34
+FieldHockeyPenalty   |     67.50% |    100.00% |    40
+FloorGymnastics      |    100.00% |    100.00% |    36
+FrisbeeCatch         |     94.59% |    100.00% |    37
+FrontCrawl           |     97.30% |    100.00% |    37
+GolfSwing            |    100.00% |    100.00% |    39
+Haircut              |     84.85% |    100.00% |    33
+Hammering            |     90.91% |     93.94% |    33
+HammerThrow          |    100.00% |    100.00% |    45
+HandstandPushups     |    100.00% |    100.00% |    28
+HandstandWalking     |     47.06% |     94.12% |    34
+HeadMassage          |    100.00% |    100.00% |    41
+HighJump             |    100.00% |    100.00% |    37
+HorseRace            |    100.00% |    100.00% |    35
+HorseRiding          |    100.00% |    100.00% |    49
+HulaHoop             |    100.00% |    100.00% |    34
+IceDancing           |    100.00% |    100.00% |    46
+JavelinThrow         |     83.87% |    100.00% |    31
+JugglingBalls        |    100.00% |    100.00% |    40
+JumpingJack          |     94.59% |    100.00% |    37
+JumpRope             |     86.84% |    100.00% |    38
+Kayaking             |     88.89% |    100.00% |    36
+Knitting             |    100.00% |    100.00% |    34
+LongJump             |     97.44% |    100.00% |    39
+Lunges               |     78.38% |     97.30% |    37
+MilitaryParade       |      0.00% |    100.00% |    33
+Mixing               |    100.00% |    100.00% |    45
+MoppingFloor         |    100.00% |    100.00% |    34
+Nunchucks            |     71.43% |     97.14% |    35
+ParallelBars         |     45.95% |    100.00% |    37
+PizzaTossing         |    100.00% |    100.00% |    33
+PlayingCello         |    100.00% |    100.00% |    44
+PlayingDaf           |    100.00% |    100.00% |    41
+PlayingDhol          |     97.96% |    100.00% |    49
+PlayingFlute         |    100.00% |    100.00% |    48
+PlayingGuitar        |    100.00% |    100.00% |    43
+PlayingPiano         |    100.00% |    100.00% |    28
+PlayingSitar         |     95.45% |    100.00% |    44
+PlayingTabla         |     87.10% |    100.00% |    31
+PlayingViolin        |    100.00% |    100.00% |    28
+PoleVault            |     97.50% |    100.00% |    40
+PommelHorse          |    100.00% |    100.00% |    35
+PullUps              |     92.86% |    100.00% |    28
+Punch                |     87.18% |    100.00% |    39
+PushUps              |    100.00% |    100.00% |    30
+Rafting              |      0.00% |    100.00% |    28
+RockClimbingIndoor   |     82.93% |    100.00% |    41
+RopeClimbing         |    100.00% |    100.00% |    34
+Rowing               |     88.89% |     97.22% |    36
+SalsaSpin            |    100.00% |    100.00% |    43
+ShavingBeard         |     93.02% |    100.00% |    43
+Shotput              |     58.70% |     71.74% |    46
+SkateBoarding        |     96.88% |    100.00% |    32
+Skiing               |     90.00% |    100.00% |    40
+Skijet               |    100.00% |    100.00% |    28
+SkyDiving            |    100.00% |    100.00% |    31
+SoccerJuggling       |    100.00% |    100.00% |    39
+SoccerPenalty        |    100.00% |    100.00% |    41
+StillRings           |     62.50% |    100.00% |    32
+SumoWrestling        |    100.00% |    100.00% |    34
+Surfing              |    100.00% |    100.00% |    33
+Swing                |    100.00% |    100.00% |    42
+TableTennisShot      |     97.44% |    100.00% |    39
+TaiChi               |     78.57% |     96.43% |    28
+TennisSwing          |     95.92% |    100.00% |    49
+ThrowDiscus          |     97.37% |    100.00% |    38
+TrampolineJumping    |    100.00% |    100.00% |    32
+Typing               |    100.00% |    100.00% |    43
+UnevenBars           |     32.14% |    100.00% |    28
+VolleyballSpiking    |    100.00% |    100.00% |    35
+WalkingWithDog       |     94.44% |    100.00% |    36
+WallPushups          |     71.43% |    100.00% |    35
+WritingOnBoard       |    100.00% |    100.00% |    45
+YoYo                 |     36.11% |    100.00% |    36

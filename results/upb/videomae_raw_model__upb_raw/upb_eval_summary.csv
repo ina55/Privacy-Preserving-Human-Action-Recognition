@@ -1,0 +1,11 @@
+subset,action_code,upb_class_name,mapped_hmdb51,mapped_total,total,top1_correct,top5_correct,top1_acc,top5_acc,top1_predictions
+DatasetHAR,A42,staggering,"walk, stand, fall_floor",57,57,40,56,70.18,98.25,"walk:40, climb_stairs:11, kick_ball:3, run:1, kick:1"
+HAR_ActiuniNoi,A1-v1,drink water from bottle,drink,32,32,0,3,0.0,9.38,"clap:15, shoot_gun:10, wave:3, pour:2, brush_hair:1"
+HAR_ActiuniNoi,A1-v2,drink water from cup,drink,32,32,0,0,0.0,0.0,"clap:28, wave:4"
+HAR_ActiuniNoi,A2,eat meal,eat,32,32,0,0,0.0,0.0,"clap:31, shoot_gun:1"
+HAR_ActiuniNoi,A28,phone call,talk,32,32,0,1,0.0,3.12,"clap:22, wave:5, hug:1, walk:1, draw_sword:1"
+HAR_ActiuniNoi,A8,sit down,sit,32,32,2,25,6.25,78.12,"walk:17, stand:6, sit:2, wave:2, fall_floor:1"
+HAR_ActiuniNoi,A80,squat down,"sit, stand, situp",32,32,5,21,15.62,65.62,"clap:10, stand:5, pick:4, wave:4, catch:2"
+HAR_ActiuniNoi,A9,stand up,stand,32,32,2,30,6.25,93.75,"walk:23, sit:2, stand:2, climb_stairs:2, clap:1"
+HAR_ActiuniNoi,C1,"sit down, stand up, phone call","sit, stand, talk",32,32,0,14,0.0,43.75,"walk:10, wave:9, clap:5, pick:3, throw:2"
+HAR_ActiuniNoi,C2,"stand up, drink water from cup, sit down","stand, drink, sit",32,32,4,19,12.5,59.38,"throw:12, wave:5, pick:5, stand:3, shoot_gun:2"

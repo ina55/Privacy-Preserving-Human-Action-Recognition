@@ -1,0 +1,39 @@
+==========================================================================================
+UPB EVALUATION WITH HMDB51-FINETUNED I3D RGB
+==========================================================================================
+
+Checkpoint: /path/to/project/work_dirs/i3d_hmdb51_cartoon_rgb_video_paper/checkpoints/i3d_rgb-3999
+HMDB51 train.csv: /path/to/project/datasets/hmdb51/hmdb51_1/train.csv
+Mapping file: /path/to/project/project/VideoMAEv2/scripts/upb_hmdb51_mapping.json
+
+--- OVERALL ---
+Total UPB videos: 345
+Mapped videos: 345
+Unmapped videos: 0
+Mapped Top-1 Accuracy: 2.03% (7/345)
+Mapped Top-5 Accuracy: 20.00% (69/345)
+
+--- PER-CLASS ---
+Subset           | Action   | UPB Class                          | Mapped HMDB51            | Top-1    | Top-5    | Mapped | Total
+--------------------------------------------------------------------------------------------------------------------------------------------
+HAR_ActiuniNoi   | A1-v1    | drink water from bottle            | drink                    |   0.00% |   0.00% |     32 |    32
+  top1 predictions: catch:13, shoot_bow:11, pour:5, throw:2, brush_hair:1
+HAR_ActiuniNoi   | A1-v2    | drink water from cup               | drink                    |   0.00% |   0.00% |     32 |    32
+  top1 predictions: catch:13, shoot_bow:11, pour:6, golf:1, climb:1
+HAR_ActiuniNoi   | A2       | eat meal                           | eat                      |   0.00% |   0.00% |     32 |    32
+  top1 predictions: catch:18, shoot_bow:5, pour:5, throw:2, brush_hair:2
+HAR_ActiuniNoi   | A28      | phone call                         | talk                     |   0.00% |   0.00% |     32 |    32
+  top1 predictions: catch:13, throw:12, shoot_bow:4, swing_baseball:1, golf:1
+HAR_ActiuniNoi   | A8       | sit down                           | sit                      |   0.00% |  34.38% |     32 |    32
+  top1 predictions: throw:18, pick:5, swing_baseball:4, walk:3, pour:1
+HAR_ActiuniNoi   | C1       | sit down, stand up, phone call     | sit, stand, talk         |   0.00% |  18.75% |     32 |    32
+  top1 predictions: catch:12, throw:11, shoot_bow:3, walk:2, pick:2
+HAR_ActiuniNoi   | A80      | squat down                         | sit, stand, situp        |   0.00% |   6.25% |     32 |    32
+  top1 predictions: shoot_ball:11, catch:10, handstand:3, throw:2, pick:2
+DatasetHAR       | A42      | staggering                         | walk, stand, fall_floor  |  12.28% |  50.88% |     57 |    57
+  top1 predictions: catch:30, kick_ball:8, walk:7, throw:3, dribble:2
+HAR_ActiuniNoi   | A9       | stand up                           | stand                    |   0.00% |  43.75% |     32 |    32
+  top1 predictions: throw:24, swing_baseball:3, pour:3, pick:2
+HAR_ActiuniNoi   | C2       | stand up, drink water from cup, sit down | stand, drink, sit        |   0.00% |  21.88% |     32 |    32
+  top1 predictions: throw:12, catch:9, pour:4, golf:2, swing_baseball:2
+

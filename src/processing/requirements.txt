@@ -1,0 +1,12 @@
+torch
+torchvision
+torchaudio
+numpy<2.0.0
+opencv-python-headless
+pillow<11.0
+mediapipe<0.10.10
+matplotlib<3.8.0
+contourpy<1.2.0
+datasets
+huggingface_hub
+yt-dlp

@@ -1,0 +1,146 @@
+{
+  "mapping_version": "initial_conservative_v1",
+  "notes": [
+    "This mapping is intentionally conservative.",
+    "Only obvious HMDB51 semantic overlaps are mapped by default.",
+    "Classes with an empty hmdb51 list are treated as unmapped and are excluded from mapped-accuracy aggregates."
+  ],
+  "DatasetHAR": {
+    "A41": {
+      "upb_label": "sneeze/cough",
+      "hmdb51": []
+    },
+    "A42": {
+      "upb_label": "staggering",
+      "hmdb51": [
+        "walk",
+        "stand",
+        "fall_floor"
+      ]
+    },
+    "A43": {
+      "upb_label": "falling down",
+      "hmdb51": [
+        "fall_floor"
+      ]
+    },
+    "A44": {
+      "upb_label": "headache",
+      "hmdb51": []
+    },
+    "A45": {
+      "upb_label": "chest pain",
+      "hmdb51": []
+    },
+    "A46": {
+      "upb_label": "back pain",
+      "hmdb51": []
+    },
+    "A47": {
+      "upb_label": "neck pain",
+      "hmdb51": []
+    },
+    "A48": {
+      "upb_label": "nausea/vomiting",
+      "hmdb51": []
+    },
+    "A49": {
+      "upb_label": "fan self",
+      "hmdb51": []
+    },
+    "A103": {
+      "upb_label": "yawn",
+      "hmdb51": []
+    },
+    "A104": {
+      "upb_label": "stretch oneself",
+      "hmdb51": []
+    },
+    "A105": {
+      "upb_label": "blow nose",
+      "hmdb51": []
+    }
+  },
+  "HAR_ActiuniNoi": {
+    "A1-v1": {
+      "upb_label": "drink water from bottle",
+      "hmdb51": [
+        "drink"
+      ]
+    },
+    "A1-v2": {
+      "upb_label": "drink water from cup",
+      "hmdb51": [
+        "drink"
+      ]
+    },
+    "A2": {
+      "upb_label": "eat meal",
+      "hmdb51": [
+        "eat"
+      ]
+    },
+    "A28": {
+      "upb_label": "phone call",
+      "hmdb51": [
+        "talk"
+      ]
+    },
+    "A8": {
+      "upb_label": "sit down",
+      "hmdb51": [
+        "sit"
+      ]
+    },
+    "A9": {
+      "upb_label": "stand up",
+      "hmdb51": [
+        "stand"
+      ]
+    },
+    "A80": {
+      "upb_label": "squat down",
+      "hmdb51": [
+        "sit",
+        "stand",
+        "situp"
+      ]
+    },
+    "A97": {
+      "upb_label": "arm circles",
+      "hmdb51": []
+    },
+    "A98": {
+      "upb_label": "arm swings",
+      "hmdb51": []
+    },
+    "A101": {
+      "upb_label": "cross toe touch",
+      "hmdb51": []
+    },
+    "A33": {
+      "upb_label": "check time (from watch)",
+      "hmdb51": []
+    },
+    "A31": {
+      "upb_label": "point to something",
+      "hmdb51": []
+    },
+    "C1": {
+      "upb_label": "sit down, stand up, phone call",
+      "hmdb51": [
+        "sit",
+        "stand",
+        "talk"
+      ]
+    },
+    "C2": {
+      "upb_label": "stand up, drink water from cup, sit down",
+      "hmdb51": [
+        "stand",
+        "drink",
+        "sit"
+      ]
+    }
+  }
+}

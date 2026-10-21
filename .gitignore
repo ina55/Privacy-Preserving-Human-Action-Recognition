@@ -1,0 +1,38 @@
+# data & outputs
+datasets/
+work_dirs/
+*.avi
+*.mp4
+*.jpg
+*.jpeg
+*.gif
+*.zip
+*.rar
+
+# checkpoints / weights
+*.pth
+*.pt
+*.onnx
+*.ckpt*
+*.data-0000*
+*.index
+*.meta
+checkpoints/
+events.out.tfevents*
+
+# logs / runtime
+*.log
+*.pid
+nohup.out
+*.partial.json
+
+# python / OS / editors
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# images used by docs
+!docs/images/**
